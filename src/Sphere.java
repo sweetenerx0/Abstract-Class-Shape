@@ -15,4 +15,14 @@ public class Sphere extends Shape {
 	public String toString() {
 		return "SPHERE: Surface Area " + sphereArea() + ". Volume " + sphereVolume() +".";
 	}
+	@Override
+	public double surface_area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public double volume() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
